@@ -3,6 +3,7 @@ import {NextIntlClientProvider} from 'next-intl';
 import {getMessages, getTranslations} from 'next-intl/server';
 import Navbar from '@/components/shared/Navbar';
 import Footer from '@/components/shared/Footer';
+import MobileStickyButton from '@/components/shared/MobileStickyButton';
 import {locales} from '@/config/locales';
 import Image from 'next/image';
 import { Inter } from 'next/font/google';
@@ -80,6 +81,8 @@ export default async function LocaleLayout({
             {children}
           </main>
           <Footer />
+          {/* Mobil sticky buton — her sayfada görünür, layout seviyesinde */}
+          <MobileStickyButton />
         </NextIntlClientProvider>
       </body>
     </html>
