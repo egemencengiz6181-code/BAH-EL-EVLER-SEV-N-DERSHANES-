@@ -16,7 +16,7 @@ export default function ContactPage() {
       {/* Soluk Arka Plan Mührü (Özel İletişim Sayfası İçin Yüksek Opasite) */}
       <div className="fixed top-[15%] right-[-250px] w-[900px] h-[900px] opacity-[0.12] rotate-12 pointer-events-none z-0">
         <Image 
-          src="/logos/final%20logo%20png.png" 
+          src="/logos/Sevinc-Koleji-Logo.png" 
           alt="" 
           fill 
           className="object-contain"
@@ -60,7 +60,7 @@ export default function ContactPage() {
                 <div>
                   <h3 className="text-lg font-semibold mb-2">{t('info.address')}</h3>
                   <p className="text-foreground/40 font-light leading-relaxed">
-                    Halkalı Merkez, Fatih Cd. No:18, Kat:2 34303 Küçükçekmece/İstanbul, Istanbul, Turkey 34000
+                    Haznedar, Bahçelievler Mahallesi, Bağcılar Caddesi No:11, Bahçelievler/İstanbul
                   </p>
                 </div>
               </div>
@@ -72,11 +72,8 @@ export default function ContactPage() {
                 <div>
                   <h3 className="text-lg font-semibold mb-2">{t('info.phone')}</h3>
                   <div className="space-y-2">
-                    <a href="tel:+905453491774" className="block text-foreground/40 font-light hover:text-primary-light transition-colors">
-                      0545 349 17 74
-                    </a>
-                    <a href="tel:+902124953021" className="block text-foreground/40 font-light hover:text-primary-light transition-colors">
-                      0212 495 30 21
+                    <a href="tel:+902125054001" className="block text-foreground/40 font-light hover:text-primary-light transition-colors">
+                      0(212) 505 40 01
                     </a>
                   </div>
                 </div>
@@ -88,8 +85,8 @@ export default function ContactPage() {
                 </div>
                 <div>
                   <h3 className="text-lg font-semibold mb-2">{t('info.email')}</h3>
-                  <a href="mailto:halkalifinaletutmerkezi@abdkurumlari.com" className="text-foreground/40 font-light leading-relaxed hover:text-primary-light transition-colors block">
-                    halkalifinaletutmerkezi@abdkurumlari.com
+                  <a href="mailto:bahcelievlersevinckurs@gmail.com" className="text-foreground/40 font-light leading-relaxed hover:text-primary-light transition-colors block">
+                    bahcelievlersevinckurs@gmail.com
                   </a>
                 </div>
               </div>
@@ -121,7 +118,7 @@ export default function ContactPage() {
                 <label className="text-sm font-medium text-foreground/40 ml-1">{t('form.message')}</label>
                 <textarea rows={4} className="w-full px-6 py-4 rounded-2xl bg-background/50 border border-black/10 dark:border-white/10 focus:border-primary-light outline-none transition-colors font-light text-sm resize-none"></textarea>
               </div>
-              <button className="w-full py-5 bg-[#E21F26] hover:bg-[#BE1821] text-white font-medium rounded-2xl transition-all shadow-[0_0_20px_rgba(226,31,38,0.3)] hover:shadow-[0_0_30px_rgba(226,31,38,0.5)] flex items-center justify-center gap-2 group">
+              <button className="w-full py-5 bg-[#E35205] hover:bg-[#A03500] text-white font-medium rounded-2xl transition-all shadow-[0_0_20px_rgba(227,82,5,0.3)] hover:shadow-[0_0_30px_rgba(227,82,5,0.5)] flex items-center justify-center gap-2 group">
                 {t('form.send')}
                 <Send className="w-4 h-4 transition-transform group-hover:translate-x-1" />
               </button>

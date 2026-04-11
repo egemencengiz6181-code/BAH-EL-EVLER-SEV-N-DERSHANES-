@@ -27,25 +27,25 @@ const badges: BadgeProps[] = [
     rotation: -12,
     x: -280,
     y: -80,
-    color: "from-[#E21F26] to-[#BE1821]"
+    color: "from-[#E35205] to-[#A03500]"
   },
   { 
     id: '8-sinif', 
-    label: '8. Sınıf & LGS', 
+    label: '8. Sınıf', 
     icon: <GraduationCap className="w-4 h-4" />,
     rotation: 8,
     x: -120,
     y: -140,
-    color: "from-[#2E3192] to-[#242672]"
+    color: "from-[#A03500] to-[#6B2400]"
   },
   { 
-    id: '5-sinif', 
-    label: '5. Sınıf', 
+    id: '9-sinif', 
+    label: '9. Sınıf', 
     icon: <BookOpen className="w-4 h-4" />,
     rotation: -5,
     x: 150,
     y: -120,
-    color: "from-[#E21F26] to-[#2E3192]"
+    color: "from-[#E35205] to-[#A03500]"
   },
   { 
     id: '6-sinif', 
@@ -63,7 +63,7 @@ const badges: BadgeProps[] = [
     rotation: 6,
     x: -220,
     y: 60,
-    color: "from-[#2E3192] to-[#E21F26]"
+    color: "from-[#A03500] to-[#E35205]"
   },
   { 
     id: 'deneme-kulubu', 
@@ -72,7 +72,7 @@ const badges: BadgeProps[] = [
     rotation: -8,
     x: 180,
     y: 90,
-    color: "from-[#E21F26] to-[#BE1821]"
+    color: "from-[#E35205] to-[#A03500]"
   },
   { 
     id: 'rehberlik', 
@@ -82,7 +82,7 @@ const badges: BadgeProps[] = [
     x: -40,
     y: -20,
     zIndex: 50,
-    color: "from-[#2E3192] to-[#242672]"
+    color: "from-[#A03500] to-[#6B2400]"
   }
 ];
 

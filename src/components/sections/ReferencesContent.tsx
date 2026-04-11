@@ -22,14 +22,14 @@ const TestimonialsSection = dynamic(
 );
 
 const successStories = [
-  { icon: Trophy,        label: 'LGS — Fen Lisesi',            name: 'Elif K.',    school: 'İstanbul Fen Lisesi',          year: '2025', color: '#E21F26', type: 'LGS', gridArea: '1/1/3/2' },
-  { icon: GraduationCap, label: 'LGS — Anadolu Lisesi',        name: 'Kerem A.',  school: 'Galatasaray Lisesi',           year: '2025', color: '#2E3192', type: 'LGS', gridArea: '1/2/2/3' },
-  { icon: Star,          label: 'LGS — Fen Lisesi',            name: 'Selin T.',  school: 'Kabataş Erkek Lisesi',         year: '2024', color: '#E21F26', type: 'LGS', gridArea: '1/3/2/4' },
-  { icon: GraduationCap, label: 'LGS — Anadolu Lisesi',        name: 'Mert Ö.',   school: 'Cağaloğlu Anadolu Lisesi',    year: '2025', color: '#2E3192', type: 'LGS', gridArea: '1/4/3/5' },
-  { icon: BookOpen,      label: 'LGS — Fen Lisesi',            name: 'Can D.',    school: 'Ankara Fen Lisesi',            year: '2025', color: '#2E3192', type: 'LGS', gridArea: '2/2/3/3' },
-  { icon: Star,          label: 'LGS — Anadolu Lisesi',        name: 'İrem S.',   school: 'İstanbul Erkek Lisesi',        year: '2024', color: '#E21F26', type: 'LGS', gridArea: '2/3/3/4' },
-  { icon: Trophy,        label: 'LGS — Fen Lisesi',            name: 'Berk Y.',   school: 'Atatürk Fen Lisesi',          year: '2025', color: '#2E3192', type: 'LGS', gridArea: '3/1/4/3' },
-  { icon: GraduationCap, label: 'LGS — Anadolu Lisesi',        name: 'Ayşe N.',  school: 'Vefa Lisesi',                  year: '2024', color: '#E21F26', type: 'LGS', gridArea: '3/3/4/5' },
+  { icon: Trophy,        label: 'YKS — Tıp Fakültesi',          name: 'Elif K.',    school: 'İstanbul Tıp Fakültesi',       year: '2025', color: '#E35205', type: 'YKS', gridArea: '1/1/3/2' },
+  { icon: GraduationCap, label: 'YKS — Mühendislik',            name: 'Kerem A.',  school: 'Boğaziçi Üniversitesi',        year: '2025', color: '#A03500', type: 'YKS', gridArea: '1/2/2/3' },
+  { icon: Star,          label: 'YKS — Hukuk Fakültesi',        name: 'Selin T.',  school: 'Galatasaray Hukuk',             year: '2024', color: '#E35205', type: 'YKS', gridArea: '1/3/2/4' },
+  { icon: GraduationCap, label: 'YKS — Mühendislik',            name: 'Mert Ö.',   school: 'İTÜ Bilgisayar Mühendisliği', year: '2025', color: '#A03500', type: 'YKS', gridArea: '1/4/3/5' },
+  { icon: BookOpen,      label: 'YKS — Tıp Fakültesi',          name: 'Can D.',    school: 'Hacettepe Tıp Fakültesi',      year: '2025', color: '#A03500', type: 'YKS', gridArea: '2/2/3/3' },
+  { icon: Star,          label: 'YKS — Hukuk Fakültesi',        name: 'İrem S.',   school: 'Ankara Hukuk Fakültesi',       year: '2024', color: '#E35205', type: 'YKS', gridArea: '2/3/3/4' },
+  { icon: Trophy,        label: 'YKS — Tıp Fakültesi',          name: 'Berk Y.',   school: 'Cerrahpaşa Tıp Fakültesi',    year: '2025', color: '#A03500', type: 'YKS', gridArea: '3/1/4/3' },
+  { icon: GraduationCap, label: 'YKS — Mühendislik',            name: 'Ayşe N.',  school: 'ODTÜ Elektrik Mühendisliği',   year: '2024', color: '#E35205', type: 'YKS', gridArea: '3/3/4/5' },
 ];
 
 const stats = [
@@ -166,8 +166,8 @@ export default function ReferencesContent({
   return (
     <div className="min-h-screen pt-40 pb-24 relative overflow-hidden bg-transparent z-10">
       {/* Ambient background glows */}
-      <div className="absolute top-0 left-1/4 w-[600px] h-[600px] bg-[#E21F26]/6 blur-[160px] rounded-full pointer-events-none -z-10" />
-      <div className="absolute top-40 right-1/4 w-[500px] h-[500px] bg-[#2E3192]/6 blur-[160px] rounded-full pointer-events-none -z-10" />
+      <div className="absolute top-0 left-1/4 w-[600px] h-[600px] bg-[#E35205]/6 blur-[160px] rounded-full pointer-events-none -z-10" />
+      <div className="absolute top-40 right-1/4 w-[500px] h-[500px] bg-[#A03500]/6 blur-[160px] rounded-full pointer-events-none -z-10" />
 
       <div className="max-w-7xl mx-auto px-6 relative z-10">
         {/* ── BAŞLIK ── */}
@@ -177,7 +177,7 @@ export default function ReferencesContent({
             animate={{ opacity: 1, y: 0 }}
             className="inline-flex items-center gap-2 px-4 py-2 rounded-full border border-black/10 dark:border-white/10 bg-black/[0.04] dark:bg-white/[0.04] backdrop-blur-sm mb-8"
           >
-            <Trophy className="w-3.5 h-3.5 text-[#E21F26]" />
+            <Trophy className="w-3.5 h-3.5 text-[#E35205]" />
             <span className="text-xs font-bold uppercase tracking-[0.25em] text-slate-500 dark:text-white/50">{pageSubtitle}</span>
           </motion.div>
           <motion.h1

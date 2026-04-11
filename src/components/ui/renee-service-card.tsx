@@ -2,14 +2,20 @@
 
 import React, { useState, useCallback } from 'react';
 import { motion } from 'framer-motion';
-import { type LucideIcon, ArrowRight, BookOpen, GraduationCap, Trophy, FileText, Users } from 'lucide-react';
+import { type LucideIcon, ArrowRight, BookOpen, GraduationCap, Trophy, FileText, Users, Star } from 'lucide-react';
 import { Link } from '@/navigation';
 
 const SLUG_ICONS: Record<string, LucideIcon> = {
-  '5-sinif':        BookOpen,
   '6-sinif':        BookOpen,
   '7-sinif':        BookOpen,
   '8-sinif':        GraduationCap,
+  '9-sinif':        BookOpen,
+  '10-sinif':       BookOpen,
+  '11-sinif':       GraduationCap,
+  '12-sinif':       Trophy,
+  'mezun':          Trophy,
+  '8-sinif-vip':    Star,
+  '12-sinif-vip':   Star,
   'deneme-kulubu':  FileText,
   'ozel-ders':      Users,
 };

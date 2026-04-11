@@ -3,10 +3,16 @@ import { getTranslations } from 'next-intl/server';
 
 // Valid service slugs that match messages keys
 const validSlugs = [
-  '5-sinif',
   '6-sinif',
   '7-sinif',
   '8-sinif',
+  '9-sinif',
+  '10-sinif',
+  '11-sinif',
+  '12-sinif',
+  'mezun',
+  '8-sinif-vip',
+  '12-sinif-vip',
   'deneme-kulubu',
   'ozel-ders',
 ] as const;
@@ -23,7 +29,7 @@ export async function generateMetadata({
   params: Promise<{ locale: string; slug: string }>;
 }): Promise<Metadata> {
   const { locale, slug } = await params;
-  const origin = 'https://www.halkalifinal.com';
+  const origin = 'https://www.bahcelievlersevinc.com';
   const path = `${origin}/${locale}/services/${slug}`;
 
   if (!isValidSlug(slug)) {

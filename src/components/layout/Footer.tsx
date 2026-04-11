@@ -4,15 +4,13 @@ import { useTranslations } from 'next-intl';
 import { motion } from 'framer-motion';
 import Image from 'next/image';
 import { Link } from '@/navigation';
-import { Instagram, Mail, MapPin, ExternalLink } from 'lucide-react';
+import { Mail, MapPin, ExternalLink } from 'lucide-react';
 
 export default function Footer() {
   const t = useTranslations('Footer');
   const nt = useTranslations('Navbar');
 
-  const socialLinks = [
-    { icon: <Instagram className="w-5 h-5" />, href: "https://www.instagram.com/nazmi.arikanhalkali/", label: "Instagram" },
-  ];
+  const socialLinks: { icon: React.ReactNode; href: string; label: string }[] = [];
 
   const navLinks = [
     { name: nt('about'), href: "/about" },
@@ -26,7 +24,7 @@ export default function Footer() {
       {/* Google Maps Section */}
       <div className="w-full h-[400px] relative overflow-hidden group">
         <iframe
-          src="https://maps.google.com/maps?q=Fatih+Cad.+No:18/1,+Halkalı+Merkez,+Küçükçekmece,+İstanbul&t=&z=16&ie=UTF8&iwloc=&output=embed"
+          src="https://maps.google.com/maps?q=Haznedar,+Bah%C3%A7elievler+Mahallesi,+Ba%C4%9Fc%C4%B1lar+Caddesi+No:11,+Bah%C3%A7elievler/%C4%B0stanbul&t=&z=16&ie=UTF8&iwloc=&output=embed"
           width="100%"
           height="100%"
           style={{ border: 0, filter: 'grayscale(1) contrast(1.2) invert(0.9)' }}
@@ -46,8 +44,8 @@ export default function Footer() {
           <div className="space-y-8 col-span-1 lg:col-span-1">
             <Link href="/" className="inline-block">
               <Image 
-                src="/logos/final%20logo%20png.png" 
-                alt="Halkalı Final LGS Dershanesi" 
+                src="/logos/Sevinc-Koleji-Logo.png" 
+                alt="Bahçelievler Sevinç Dershanesi" 
                 width={200} 
                 height={80} 
                 className="h-20 w-auto object-contain"
@@ -107,25 +105,18 @@ export default function Footer() {
                 </div>
                 <div className="flex items-center gap-3 text-foreground/40">
                   <Mail className="w-5 h-5 text-primary shrink-0" />
-                  <a href="mailto:halkalifinaletutmerkezi@abdkurumlari.com" className="hover:text-white transition-colors">
-                    halkalifinaletutmerkezi@abdkurumlari.com
+                  <a href="mailto:bahcelievlersevinckurs@gmail.com" className="hover:text-white transition-colors">
+                    bahcelievlersevinckurs@gmail.com
                   </a>
                 </div>
               </div>
               
               <div className="flex flex-col justify-end gap-2">
                 <a 
-                  href="tel:+905453491774" 
+                  href="tel:+902125054001" 
                   className="inline-flex items-center gap-2 text-primary font-medium group"
                 >
-                  <span>0545 349 17 74</span>
-                  <ExternalLink className="w-4 h-4 group-hover:translate-x-1 group-hover:-translate-y-1 transition-transform" />
-                </a>
-                <a 
-                  href="tel:+902124953021" 
-                  className="inline-flex items-center gap-2 text-primary font-medium group"
-                >
-                  <span>0212 495 30 21</span>
+                  <span>0(212) 505 40 01</span>
                   <ExternalLink className="w-4 h-4 group-hover:translate-x-1 group-hover:-translate-y-1 transition-transform" />
                 </a>
               </div>

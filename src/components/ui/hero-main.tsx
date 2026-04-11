@@ -27,7 +27,7 @@ export default function HeroMain() {
       {/* ── WAVES BACKGROUND — sadece desktop (mobilde performans tasarrufu) ── */}
       <div className="hidden md:block absolute inset-0 z-0">
         <Waves
-          strokeColor="#E21F26"
+          strokeColor="#E35205"
           backgroundColor={wavesBg}
           lineCount={14}
           waveSpeedX={0.0007}
@@ -63,7 +63,7 @@ export default function HeroMain() {
       <motion.div
         className="absolute z-[2] w-[720px] h-[720px] rounded-full blur-[160px] opacity-[0.18]"
         style={{
-          background: "radial-gradient(circle, #E21F26 0%, #2E3192 50%, transparent 80%)",
+          background: "radial-gradient(circle, #E35205 0%, #A03500 50%, transparent 80%)",
           top: "50%",
           left: "50%",
           x: "-50%",
@@ -81,11 +81,11 @@ export default function HeroMain() {
           variants={fadeUp}
           initial="hidden"
           animate="visible"
-          className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full border border-[#E21F26]/30 bg-[#E21F26]/10 backdrop-blur-sm mb-8"
+          className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full border border-[#E35205]/30 bg-[#E35205]/10 backdrop-blur-sm mb-8"
         >
-          <span className="w-1.5 h-1.5 rounded-full bg-[#E21F26] animate-pulse" />
-          <span className="text-xs font-semibold tracking-[0.25em] uppercase text-[#E21F26]/80">
-            Halkalı · Küçükçekmece / İstanbul
+          <span className="w-1.5 h-1.5 rounded-full bg-[#E35205] animate-pulse" />
+          <span className="text-xs font-semibold tracking-[0.25em] uppercase text-[#E35205]/80">
+            Bahçelievler / İstanbul
           </span>
         </motion.div>
 
@@ -100,7 +100,7 @@ export default function HeroMain() {
           {t("title_prefix")}{" "}
           <span
             style={{
-              background: "linear-gradient(to right, #E21F26, #E65F5F, #2E3192)",
+              backgroundImage: "linear-gradient(to right, #FF9E7F, #E35205, #A03500)",
               WebkitBackgroundClip: "text",
               backgroundClip: "text",
               WebkitTextFillColor: "transparent",
@@ -134,11 +134,11 @@ export default function HeroMain() {
           className="flex flex-col sm:flex-row items-center justify-center gap-4"
         >
           <a
-            href="https://wa.me/905453491774"
+            href="https://wa.me/902125054001"
             target="_blank"
             rel="noopener noreferrer"
-            className="group inline-flex items-center gap-3 px-8 py-4 rounded-full bg-[#E21F26] hover:bg-[#BE1821] text-white font-semibold text-sm tracking-wide transition-all duration-300 hover:scale-105 active:scale-95 shadow-[0_0_32px_rgba(226,31,38,0.45)] hover:shadow-[0_0_48px_rgba(226,31,38,0.6)]"
-            style={{ backgroundColor: '#E21F26' }}
+            className="group inline-flex items-center gap-3 px-8 py-4 rounded-full bg-[#E35205] hover:bg-[#A03500] text-white font-semibold text-sm tracking-wide transition-all duration-300 hover:scale-105 active:scale-95 shadow-[0_0_32px_rgba(227,82,5,0.45)] hover:shadow-[0_0_48px_rgba(227,82,5,0.6)]"
+            style={{ backgroundColor: '#E35205' }}
           >
             <MessageCircle className="w-4 h-4" />
             {t("cta")}

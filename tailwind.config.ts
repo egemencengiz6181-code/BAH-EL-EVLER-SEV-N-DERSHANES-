@@ -13,18 +13,18 @@ const config: Config = {
         background: "var(--background)",
         foreground: "var(--foreground)",
         primary: {
-          DEFAULT: "#E21F26",
-          light: "#E64D52",
-          dark: "#A9191D",
+          DEFAULT: "#E35205",
+          light: "#FF9E7F",
+          dark: "#A03500",
         },
         secondary: {
-          DEFAULT: "#2E3192",
-          light: "#423DB2",
-          dark: "#242775",
+          DEFAULT: "#A03500",
+          light: "#E35205",
+          dark: "#7A2800",
         },
         accent: {
-          DEFAULT: "#2E3192",
-          muted: "#0e1e2e",
+          DEFAULT: "#E35205",
+          muted: "#1a0e08",
         },
       },
       backgroundImage: {

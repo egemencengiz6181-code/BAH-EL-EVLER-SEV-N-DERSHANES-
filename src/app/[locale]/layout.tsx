@@ -27,7 +27,7 @@ export async function generateMetadata({
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: 'Index' });
 
-  const origin = 'https://www.halkalifinal.com';
+  const origin = 'https://www.bahcelievlersevinc.com';
 
   return {
     title: t('title'),
@@ -38,7 +38,7 @@ export async function generateMetadata({
     openGraph: {
       type: 'website',
       locale: 'tr_TR',
-      siteName: 'Halkalı Final LGS Dershanesi',
+      siteName: 'Bahçelievler Sevinç Dershanesi',
       title: t('title'),
       description: t('description'),
       url: `${origin}/${locale}`,
@@ -70,7 +70,7 @@ export default async function LocaleLayout({
         {/* Arka Plan İkonu (Global Mühür) */}
         <div className="fixed top-[15%] right-[-250px] w-[900px] h-[900px] opacity-[0.08] rotate-12 pointer-events-none z-0">
           <Image 
-            src="/logos/final%20logo%20png.png" 
+            src="/logos/Sevinc-Koleji-Logo.png" 
             alt="" 
             fill 
             className="object-contain"

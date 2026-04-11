@@ -4,29 +4,29 @@ import ReferencesMarquee from '@/components/sections/ReferencesMarquee';
 type Student = {
   name: string;
   achievement: string;
-  exam: 'LGS' | 'LGS_RANK';
+  exam: 'YKS' | 'YKS_RANK';
 };
 
 const students: Student[] = [
-  { name: 'Elif K.',   achievement: 'LGS — Galatasaray Lisesi',      exam: 'LGS' },
-  { name: 'Kerem A.', achievement: "LGS %0.01'lik Dilim",            exam: 'LGS_RANK' },
-  { name: 'Selin T.', achievement: 'LGS — İstanbul Erkek Lisesi',    exam: 'LGS' },
-  { name: 'Mert Ö.',  achievement: 'LGS TR 89.',                     exam: 'LGS_RANK' },
-  { name: 'Zeynep B.', achievement: 'LGS — Kabataş Erkek Lisesi',    exam: 'LGS' },
-  { name: 'Arda Y.',  achievement: "LGS %0.05'lik Dilim",            exam: 'LGS_RANK' },
-  { name: 'Melis G.', achievement: 'LGS — Cağaloğlu Anadolu Lisesi', exam: 'LGS' },
-  { name: 'Can S.',   achievement: 'LGS TR 45.',                     exam: 'LGS_RANK' },
+  { name: 'Ayşe K.',   achievement: 'YKS — İstanbul Tıp Fakültesi',      exam: 'YKS' },
+  { name: 'Kerem A.', achievement: "YKS İlk 1000",            exam: 'YKS_RANK' },
+  { name: 'Selin T.', achievement: 'YKS — İTÜ Bilgisayar Müh.',    exam: 'YKS' },
+  { name: 'Mert Ö.',  achievement: 'YKS İlk 500',                     exam: 'YKS_RANK' },
+  { name: 'Zeynep B.', achievement: 'YKS — Boğaziçi Üniversitesi',    exam: 'YKS' },
+  { name: 'Arda Y.',  achievement: "YKS İlk 2000",            exam: 'YKS_RANK' },
+  { name: 'Melis G.', achievement: 'YKS — Hacettepe Tıp Fak.', exam: 'YKS' },
+  { name: 'Can S.',   achievement: 'YKS — Ankara Hukuk Fak.',                     exam: 'YKS' },
 ];
 
 function AchievementCard({ name, achievement, exam }: Student) {
-  const isRank = exam === 'LGS_RANK';
+  const isRank = exam === 'YKS_RANK';
   return (
     <div className="group relative rounded-2xl p-px overflow-hidden">
       {/* Gradient border layer */}
       <div
         className={`absolute inset-0 rounded-2xl transition-opacity duration-500 ${
           isRank
-            ? 'bg-gradient-to-br from-[#2E3192]/40 via-[#2E3192]/10 to-transparent'
+            ? 'bg-gradient-to-br from-[#A03500]/40 via-[#A03500]/10 to-transparent'
             : 'bg-gradient-to-br from-primary/50 via-primary/10 to-transparent'
         }`}
       />
@@ -35,11 +35,11 @@ function AchievementCard({ name, achievement, exam }: Student) {
         <span
           className={`text-[10px] font-black uppercase tracking-[0.25em] px-3 py-1 rounded-full ${
             isRank
-              ? 'bg-[#2E3192]/10 text-[#2E3192] dark:bg-[#2E3192]/20 dark:text-[#8B8FD4]'
-              : 'bg-[#E21F26]/10 text-[#E21F26] dark:bg-[#E21F26]/20 dark:text-[#EF8487]'
+              ? 'bg-[#A03500]/10 text-[#A03500] dark:bg-[#A03500]/20 dark:text-[#FF9E7F]'
+              : 'bg-[#E35205]/10 text-[#E35205] dark:bg-[#E35205]/20 dark:text-[#FF9E7F]'
           }`}
         >
-          LGS
+          YKS
         </span>
         <p className="text-xl md:text-2xl font-black text-foreground leading-tight">
           {achievement}
@@ -49,7 +49,7 @@ function AchievementCard({ name, achievement, exam }: Student) {
       {/* Hover glow behind card */}
       <div
         className={`absolute inset-0 rounded-2xl -z-10 opacity-0 group-hover:opacity-100 transition-opacity duration-700 blur-2xl ${
-          isRank ? 'bg-[#2E3192]/15' : 'bg-primary/20'
+          isRank ? 'bg-[#A03500]/15' : 'bg-primary/20'
         }`}
       />
     </div>

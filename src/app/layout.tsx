@@ -1,32 +1,32 @@
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://www.halkalifinal.com'),
+  metadataBase: new URL('https://www.bahcelievlersevinc.com'),
   title: {
-    default: 'Halkalı Final LGS Dershanesi',
-    template: '%s | Halkalı Final LGS Dershanesi',
+    default: 'Bahçelievler Sevinç Dershanesi',
+    template: '%s | Bahçelievler Sevinç Dershanesi',
   },
-  description: "Küçükçekmece — Halkalı Final LGS Dershanesi. LGS'de hedef liseye giden yol.",
-  authors: [{ name: 'Halkalı Final LGS Dershanesi', url: 'https://www.halkalifinal.com' }],
-  creator: 'Halkalı Final LGS Dershanesi',
-  publisher: 'Halkalı Final LGS Dershanesi',
+  description: "Bahçelievler — Sevinç Dershanesi. Hedef okuluna giden yol.",
+  authors: [{ name: 'Bahçelievler Sevinç Dershanesi', url: 'https://www.bahcelievlersevinc.com' }],
+  creator: 'Bahçelievler Sevinç Dershanesi',
+  publisher: 'Bahçelievler Sevinç Dershanesi',
   robots: {
     index: true,
     follow: true,
     googleBot: { index: true, follow: true },
   },
   icons: {
-    icon: '/logos/final%20logo%20png.png',
+    icon: '/logos/Sevinc-Koleji-Logo.png',
   },
   openGraph: {
     type: 'website',
-    siteName: 'Halkalı Final LGS Dershanesi',
+    siteName: 'Bahçelievler Sevinç Dershanesi',
     locale: 'tr_TR',
   },
   twitter: {
     card: 'summary_large_image',
-    site: '@halkalifinal_lgs',
-    creator: '@halkalifinal_lgs',
+    site: '@sevincdershanesi',
+    creator: '@sevincdershanesi',
   },
 };
 
