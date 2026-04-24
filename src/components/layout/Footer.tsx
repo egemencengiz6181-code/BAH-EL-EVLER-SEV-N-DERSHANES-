@@ -47,8 +47,8 @@ export default function Footer() {
                 src="/logos/final%20logo%20png.png" 
                 alt="Şirinevler Final Dershanesi" 
                 width={200} 
-                height={80} 
-                className="h-20 w-auto object-contain"
+                height={200} 
+                className="h-[130px] w-auto object-contain -my-[25px]"
               />
             </Link>
             <p className="text-foreground/40 font-light leading-relaxed max-w-xs">

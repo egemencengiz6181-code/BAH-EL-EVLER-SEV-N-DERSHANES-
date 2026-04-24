@@ -133,8 +133,8 @@ export default function HoverFooter() {
                 src="/logos/final%20logo%20png.png"
                 alt="Şirinevler Final Dershanesi"
                 width={180}
-                height={60}
-                className="h-16 w-auto object-contain"
+                height={180}
+                className="h-[120px] w-auto object-contain -my-[28px]"
               />
             </Link>
             <p className="text-sm text-slate-500 dark:text-white/30 leading-relaxed max-w-xs">

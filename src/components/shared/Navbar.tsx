@@ -111,8 +111,8 @@ export default function Navbar() {
                       src="/logos/final%20logo%20png.png" 
             alt="Şirinevler Final Dershanesi" 
             width={240} 
-            height={72} 
-            className="h-[64px] md:h-[80px] w-auto object-contain"
+            height={240} 
+            className="h-[110px] md:h-[150px] w-auto object-contain -my-[22px] md:-my-[30px]"
             priority
           />
         </Link>
@@ -248,8 +248,8 @@ export default function Navbar() {
                 src="/logos/final%20logo%20png.png"
                 alt="Şirinevler Final Dershanesi"
                 width={200}
-                height={60}
-                className="h-[56px] w-auto object-contain"
+                height={200}
+                className="h-[100px] w-auto object-contain -my-[22px]"
                 priority
               />
             </Link>
