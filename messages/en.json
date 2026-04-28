@@ -39,13 +39,13 @@
     "items": {
       "6-sinif": {
         "title": "6. Sınıf",
-        "description": "Haftada 12 saat ders, yılda 6 deneme, rehberlik ve psikolog desteği.",
+        "description": "12 hours/week, including English, 6 mock exams per year, guidance and psychologist support.",
         "hero_quote": "Sağlam bir temel, parlak bir gelecek inşa eder.",
         "intro": "6. sınıf programımız, öğrencilerin temel derslerinde güçlü altyapı oluşturmasını ve süreçe erken adapte olmasını hedefler.",
         "body": "Haftada 12 saat ders verilmektedir. Yılda 6 deneme yapılmaktadır. Cumartesi 4 saat, pazar 4 saat ders, salı 4 saat etüt uygulanmaktadır. Cuma günleri 15:45 - 18:10 soru çözüm saati bulunmaktadır. Öğrenciler ile kurum iç kurum dışı etkinlikler yapılmaktadır (okul gezileri, futbol maçları, sinema, bilgi yarışması, kahvaltılar). Deneme sonrası rehberlik birimi tarafından sıfır hata kitapçığı çıkarılarak sınav analizi yapılır. Her öğrenci ile düzenli olarak psikolog eşliğinde seanslar yapılmaktadır. 2 haftada bir sınıf danışman öğretmenleri veliler ile düzenli telefon görüşmesi yapmaktadır. 2 haftada bir gruplar halinde psikodrama terapisi yapılmaktadır. 36 haftalık eğitim sistemimizde 432 saat eğitim verilmektedir. Öğrencilere gruplar halinde randevulu eğitim programı (REP) kapsamında dersler verilmektedir. Yılda 2 kez tüm veliler kuruma davet edilerek veli toplantısı yapılır. Yıl içerisinde veli birebir görüşmelere davet edilerek görüşme sağlanır. Psikolog eşliğinde 15 gün arayla danışman hocaları ile birlikte öğrenci analizleri yapılıyor. Dönem içinde psikolog eşliğinde seminerler yapılmaktadır. Öğrencilere haftalık soru takip çizelgeleri verilerek düzenli olarak kontrol edilip kişiye özel hazırlanmış dosyalara eklenmektedir. Yıl boyunca 80 saat soru çözüm saatları yapılacaktır. Okula destek için her yazılı döneminde öğrencilere yazılı çalışması yapılmaktadır.",
         "strategy_title": "Program İçeriği",
         "phase1_title": "Temel Dersler",
-        "phase1_text": "Matematik, Fen, Türkçe ve Sosyal Bilgiler konularının derinlemesine işlenmesi.",
+        "phase1_text": "In-depth coverage of Math, Science, Turkish, Social Studies and English.",
         "phase2_title": "Test & Değerlendirme",
         "phase2_text": "Yılda 6 deneme sınavı. Sıfır hata kitapçığı ile sınav analizi.",
         "phase3_title": "Kişisel Takip & Rehberlik",
@@ -56,25 +56,26 @@
         "tech_intro": "Cumartesi 4 saat, Pazar 4 saat ders, Salı 4 saat etüt. Cuma soru çözüm saati.",
         "tech_tools": "Konu anlatımı · Test çözümü · Etüt · Rehberlik · Psikolog desteği",
         "features": [
-          "Haftada 12 saat ders",
-          "Yılda 6 deneme",
-          "Psikolog eşliğinde seanslar",
-          "Psikodrama terapisi",
-          "REP kapsamında dersler",
-          "80 saat soru çözüm"
+          "12 hours/week",
+          "English included",
+          "6 mock exams/year",
+          "Psychologist sessions",
+          "Psychodrama therapy",
+          "REP classes",
+          "80 hrs problem-solving"
         ],
         "meta_title": "6. Sınıf Programı | Bahçelievler Sevinç Dershanesi",
         "meta_description": "6. sınıf öğrencileri için haftalık 12 ders saati, 36 hafta 432 saat eğitim, psikolog ve rehberlik destekli program."
       },
       "7-sinif": {
         "title": "7. Sınıf",
-        "description": "Haftada 12 saat ders, yılda 8 deneme + deneme kulübü, rehberlik ve psikolog desteği.",
+        "description": "12 hours/week, including English, 8 mock exams + exam club per year, guidance and psychologist support.",
         "hero_quote": "Pekişen her bilgi, başarıya bir adım daha yaklaştırır.",
         "intro": "7. sınıf programımız, öğrencilerin ortaokul müfredatını derinlemesine kavramasını ve 8. sınıfa hazırlıklı geçmesini sağlar.",
         "body": "Haftada 12 saat ders verilmektedir. Yılda 8 deneme + deneme kulübüne kayıt olan öğrencilere deneme sınavları yapılmaktadır. Cumartesi 4 saat, pazar 4 saat ders, haftaiçi bir gün 4 saat etüt uygulanmaktadır. Öğrenciler ile kurum iç kurum dışı etkinlikler yapılmaktadır (okul gezileri, futbol maçları, sinema, bilgi yarışması, kahvaltılar). Deneme sonrası rehberlik birimi tarafından sıfır hata kitapçığı çıkarılarak sınav analizi yapılır. Her öğrenci ile düzenli olarak psikolog eşliğinde seanslar yapılmaktadır. 2 haftada bir sınıf danışman öğretmenleri veliler ile düzenli telefon görüşmesi yapmaktadır. Öğrencilere haftalık soru takip çizelgeleri verilerek düzenli olarak kontrol edilip kişiye özel hazırlanmış dosyalara eklenmektedir. 8. sınıfa kayıt yaptıran öğrencilerimiz ile 2. dönem LGS hazırlık dersleri yapılmaktadır. 2 haftada bir gruplar halinde psikodrama terapisi yapılmaktadır. Psikolog eşliğinde 15 gün arayla danışman hocaları ile birlikte öğrenci analizleri yapılıyor. 36 haftalık eğitim sistemimizde 432 saat eğitim verilmektedir. Yılda 2 kez tüm veliler kuruma davet edilerek veli toplantısı yapılır. Yıl içerisinde veli birebir görüşmelere davet edilerek görüşme sağlanır. Okula destek için her yazılı döneminde öğrencilere yazılı çalışması yapılmaktadır. Yıl boyunca 240 saat soru çözüm saatları yapılacaktır (Cuma, C.tesi, Pazar 16:00-18:00). Öğrencilere gruplar halinde randevulu eğitim programı (REP) kapsamında dersler verilecektir. Dönem içinde psikolog eşliğinde seminerler yapılmaktadır.",
         "strategy_title": "Program İçeriği",
         "phase1_title": "Temel Dersler",
-        "phase1_text": "Matematik, Fen, Türkçe ve Sosyal Bilgiler konularının derinlemesine işlenmesi.",
+        "phase1_text": "In-depth coverage of Math, Science, Turkish, Social Studies and English.",
         "phase2_title": "Test & Değerlendirme",
         "phase2_text": "Yılda 8 deneme sınavı + deneme kulübü denemeleri. Sıfır hata kitapçığı ile analiz.",
         "phase3_title": "Kişisel Takip & Rehberlik",
@@ -85,12 +86,13 @@
         "tech_intro": "Cumartesi 4 saat, Pazar 4 saat ders, haftaiçi 1 gün 4 saat etüt. 240 saat soru çözüm.",
         "tech_tools": "Konu anlatımı · Test çözümü · Etüt · Rehberlik · Psikolog desteği",
         "features": [
-          "Haftada 12 saat ders",
-          "Yılda 8 deneme + deneme kulübü",
-          "Psikolog eşliğinde seanslar",
-          "Psikodrama terapisi",
-          "REP kapsamında dersler",
-          "240 saat soru çözüm"
+          "12 hours/week",
+          "English included",
+          "8 mock exams + exam club",
+          "Psychologist sessions",
+          "Psychodrama therapy",
+          "REP classes",
+          "240 hrs problem-solving"
         ],
         "meta_title": "7. Sınıf Programı | Bahçelievler Sevinç Dershanesi",
         "meta_description": "7. sınıf öğrencileri için haftalık 12 ders saati, yılda 8 deneme, psikolog ve rehberlik destekli program."
@@ -114,12 +116,13 @@
         "tech_intro": "Cumartesi 4 saat, Pazar 4 saat ders, haftaiçi 1 gün 4 saat etüt. 240 saat soru çözüm.",
         "tech_tools": "Konu anlatımı · Yılda 30 deneme · Sıfır hata kitapçığı · Psikolog desteği",
         "features": [
-          "Haftada 12 saat ders",
-          "Yılda 30 deneme + deneme kulübü",
-          "Psikolog eşliğinde seanslar",
-          "Psikodrama terapisi",
-          "REP kapsamında dersler",
-          "240 saat soru çözüm"
+          "12 hours/week",
+          "30 mock exams + exam club",
+          "Problem-Solving Day (Wed/Thu)",
+          "Psychologist sessions",
+          "Psychodrama therapy",
+          "REP classes",
+          "240 hrs problem-solving"
         ],
         "meta_title": "8. Sınıf Programı | Bahçelievler Sevinç Dershanesi",
         "meta_description": "8. sınıf öğrencileri için haftalık 12 ders saati, yılda 30 deneme, psikolog ve rehberlik destekli LGS hazırlık programı."
@@ -213,7 +216,7 @@
       },
       "12-sinif": {
         "title": "12. Sınıf",
-        "description": "Haftada 16 saat ders, yılda 26 TYT-AYT denemesi, rehberlik ve psikolog desteği.",
+        "description": "16 hours/week, 26 TYT + 14 AYT = 40 Mock Exams + Exam Club, guidance and psychologist support.",
         "hero_quote": "YKS'ye giden son virajda her an değerli.",
         "intro": "12. sınıf programımız, YKS'ye odaklanan yoğun ve kapsamlı bir hazırlık sürecidir.",
         "body": "Haftada 16 saat ders verilmektedir. Yılda 13 TYT, 13 AYT toplam 26 deneme yapılmaktadır. Cumartesi 6 saat, pazar 6 saat ders, haftaiçi 2 gün 2 saat ders uygulanmaktadır. Öğrenciler ile kurum iç kurum dışı etkinlikler yapılmaktadır (üniversite gezileri, futbol, sinema, bilgi yarışması, yemek). Yılda 2 kez tüm veliler kuruma davet edilerek veli toplantısı yapılır. Yıl içerisinde veli birebir görüşmelere davet edilerek görüşme sağlanır. Deneme sonrası rehberlik birimi tarafından sıfır hata kitapçığı çıkarılarak sınav analizi yapılır. Her öğrenci ile düzenli olarak psikolog eşliğinde seanslar yapılmaktadır. 2 haftada bir sınıf danışman öğretmenleri veliler ile düzenli telefon görüşmesi yapmaktadır. Psikolog eşliğinde 15 gün arayla danışman hocaları ile birlikte öğrenci analizleri yapılıyor. 2 haftada bir gruplar halinde psikodrama terapisi yapılmaktadır. 40 haftalık eğitim sistemimizde 640 saat eğitim verilmektedir. Öğrencilere haftalık soru takip çizelgeleri verilerek düzenli olarak kontrol edilip kişiye özel hazırlanmış dosyalara eklenmektedir. Yıl boyunca 240 saat soru çözüm saatları yapılacaktır (haftaiçi Salı, Çarşamba, Perşembe 15:00-17:00). Öğrencilere gruplar halinde randevulu eğitim programı (REP) kapsamında dersler verilmektedir.",
@@ -230,19 +233,20 @@
         "tech_intro": "Cumartesi 6 saat, Pazar 6 saat ders, haftaiçi 2 gün 2 saat ders. 240 saat soru çözüm.",
         "tech_tools": "TYT-AYT dersleri · 26 deneme · Sıfır hata kitapçığı · Psikolog desteği",
         "features": [
-          "Haftada 16 saat ders",
-          "Yılda 26 TYT-AYT denemesi",
-          "Psikolog eşliğinde seanslar",
-          "Psikodrama terapisi",
-          "REP kapsamında dersler",
-          "240 saat soru çözüm"
+          "16 hours/week",
+          "26 TYT + 14 AYT = 40 Mock Exams",
+          "Exam Club included",
+          "Psychologist sessions",
+          "Psychodrama therapy",
+          "REP classes",
+          "240 hrs problem-solving"
         ],
         "meta_title": "12. Sınıf Programı | Bahçelievler Sevinç Dershanesi",
         "meta_description": "12. sınıf öğrencileri için haftalık 16 ders saati, yılda 26 TYT-AYT denemesi, psikolog ve rehberlik destekli program."
       },
       "mezun": {
         "title": "Mezun",
-        "description": "Haftada 18 saat ders, yılda 26 TYT-AYT denemesi + deneme kulübü, rehberlik ve psikolog desteği.",
+        "description": "18 hours/week, 26 TYT + 14 AYT = 40 Mock Exams + Exam Club, guidance and psychologist support.",
         "hero_quote": "YKS'ye bir yıl daha hazırlanmak, daha güçlü devam etmektir.",
         "intro": "Mezun programımız, YKS'ye tam odaklı yoğun bir hazırlık sürecidir.",
         "body": "Haftada 18 saat ders verilmektedir. Yılda 13 TYT, 13 AYT toplam 26 deneme + deneme kulübü denemeleri yapılmaktadır. Salı, Çarşamba, Perşembe günleri günde 6 saat ders yapılacaktır (ders sonrasında öğretmen gözetiminde 15:00-17:00 arasında etüt). Öğrenciler ile kurum iç kurum dışı etkinlikler yapılmaktadır (üniversite gezileri, futbol, sinema, bilgi yarışması, yemek). Deneme sonrası rehberlik birimi tarafından sıfır hata kitapçığı çıkarılarak sınav analizi yapılır. Her öğrenci ile düzenli olarak psikolog eşliğinde seanslar yapılmaktadır. 2 haftada bir sınıf danışman öğretmenleri veliler ile düzenli telefon görüşmesi yapmaktadır. Yılda 2 kez tüm veliler kuruma davet edilerek veli toplantısı yapılır. Yıl içerisinde veli birebir görüşmelere davet edilerek görüşme sağlanır. Psikolog eşliğinde 15 gün arayla danışman hocaları ile birlikte öğrenci analizleri yapmaktadır. 2 haftada bir gruplar halinde psikodrama terapisi yapılmaktadır. 36 haftalık eğitim sistemimizde 648 saat eğitim verilmektedir. Öğrencilere haftalık soru takip çizelgeleri verilerek düzenli olarak kontrol edilip kişiye özel hazırlanmış dosyalara eklenmektedir. Yıl boyunca 240 saat soru çözüm saatları yapılacaktır (haftaiçi Salı, Çarşamba, Perşembe 15:00-17:00). Öğrencilere gruplar halinde randevulu eğitim programı (REP) kapsamında dersler verilmektedir.",
@@ -259,12 +263,13 @@
         "tech_intro": "Salı-Çarşamba-Perşembe günde 6 saat ders + etüt. 240 saat soru çözüm.",
         "tech_tools": "TYT-AYT dersleri · 26 deneme · Sıfır hata kitapçığı · Psikolog desteği",
         "features": [
-          "Haftada 18 saat ders",
-          "Yılda 26 TYT-AYT denemesi",
-          "Psikolog eşliğinde seanslar",
-          "Psikodrama terapisi",
-          "REP kapsamında dersler",
-          "240 saat soru çözüm"
+          "18 hours/week",
+          "26 TYT + 14 AYT = 40 Mock Exams",
+          "Exam Club included",
+          "Psychologist sessions",
+          "Psychodrama therapy",
+          "REP classes",
+          "240 hrs problem-solving"
         ],
         "meta_title": "Mezun Programı | Bahçelievler Sevinç Dershanesi",
         "meta_description": "Mezun öğrenciler için haftalık 18 ders saati, yılda 26 TYT-AYT denemesi, psikolog ve rehberlik destekli program."
@@ -300,7 +305,7 @@
       },
       "12-sinif-vip": {
         "title": "12. Sınıf VIP",
-        "description": "Haftada 16 saat ders, yılda 26 TYT-AYT denemesi + deneme kulübü, 40 saat özel ders, koç desteği.",
+        "description": "16 hours/week, 26 TYT + 14 AYT = 40 Mock Exams + Exam Club, 40 hrs private tutoring, coaching support.",
         "hero_quote": "YKS'ye giden bu son dönemde her öğrencimiz ayrı ayrı değerlidir; VIP programımızla farkı hissettiriyoruz.",
         "intro": "12. Sınıf VIP programımızda öğrencilere haftada 16 saat ders verilmektedir. Her VIP öğrencisi yılda 40 saat özel ders almaktadır.",
         "body": "12. sınıflar için haftada 16 saat ders yapılmaktadır. VIP sınıfına kayıt yaptıran öğrenci için 1 yılda 40 saat özel ders yapılmaktadır. Her VIP öğrencisi için ders eksiklik durumuna göre haftada 1 ders saati özel ders verilmektedir. 12. sınıf VIP için yılda 27 deneme + deneme kulübü denemeleri yapılmaktadır. 12 VIP için yılda 13 TYT, 13 AYT toplam 26 deneme + deneme kulübü denemeleri yapılmaktadır. Cumartesi 6 saat, pazar 6 saat ders, haftaiçi 2 gün 2 saat ders toplamda 16 saat ders yapılmaktadır. Yılda 2 kez tüm veliler kuruma davet edilerek veli toplantısı yapılır. Yıl içerisinde veli birebir görüşmelere davet edilerek görüşme sağlanır. Öğrencilere haftalık soru takip çizelgeleri verilerek düzenli olarak kontrol edilip kişiye özel hazırlanmış dosyalara eklenmektedir. Öğrenciler ile kurum iç kurum dışı etkinlikler yapılmaktadır (üniversite ve okul gezileri, futbol, sinema, bilgi yarışması, yemek). Deneme sonrası rehberlik birimi tarafından sıfır hata kitapçığı çıkarılarak sınav analizi yapılır. Her öğrenci ile düzenli olarak psikolog eşliğinde seanslar yapılmaktadır. 2 haftada bir sınıf danışman öğretmenleri veliler ile düzenli telefon görüşmesi yapmaktadır. 2 haftada bir gruplar halinde psikodrama terapisi yapılmaktadır. Psikolog eşliğinde 15 gün arayla danışman hocaları ile birlikte öğrenci analizleri yapılıyor. 40 haftalık eğitim sistemimizde 12. sınıf VIP öğrencileri için 640 saat eğitim verilmektedir. Okula destek için her yazılı döneminde öğrencilere yazılı çalışması yapılmaktadır. Yıl boyunca 240 saat soru çözüm saatları yapılacaktır (haftaiçi Salı, Çarşamba, Perşembe 15:00-17:00). Öğrencilere gruplar halinde randevulu eğitim programı (REP) kapsamında dersler verilmektedir. 12. sınıf VIP öğrencileri ile sınıf danışman hocası haftada 2 gün zoom üzerinden toplantı yapmaktadır. VIP öğrencilerimiz haftada 1 gün koçu ile çalışmalar yapmaktadır.",
@@ -317,12 +322,13 @@
         "tech_intro": "Haftada 16 saat ders, 40 saat özel ders, koç desteği ve 40 hafta 640 saat eğitim.",
         "tech_tools": "VIP ders · 26 deneme · 40 saat özel ders · Koç desteği · Psikolog",
         "features": [
-          "Haftada 16 saat ders",
-          "Yılda 26 TYT-AYT denemesi",
-          "40 saat bireysel özel ders",
-          "Haftalık koç çalışması",
-          "Zoom toplantıları",
-          "640 saat eğitim (40 hafta)"
+          "16 hours/week",
+          "26 TYT + 14 AYT = 40 Mock Exams",
+          "Exam Club included",
+          "40 hrs private tutoring",
+          "Weekly coaching",
+          "Zoom sessions",
+          "640 hrs training (40 weeks)"
         ],
         "meta_title": "12. Sınıf VIP | Bahçelievler Sevinç Dershanesi",
         "meta_description": "12. Sınıf VIP programı. Haftada 16 saat ders, yılda 26 TYT-AYT denemesi, 40 saat özel ders ve koç desteği."
@@ -399,11 +405,11 @@
     "content": "Bahçelievler Sevinç Dershanesi, bölgedeki öğrencilere kaliteli LGS ve YKS hazırlık eğitimi sağlamak amacıyla kurulmuştur. Yıllar içinde binlerce öğrencimizi hedef okullarına ulaştırdık.",
     "vision": {
       "title": "Vizyon",
-      "text": "Bahçelievler ve çevresindeki öğrencilerin eğitime en kolay ve kaliteli biçimde erişebildiği güvenilir bir eğitim yuvası olmak."
+      "text": "To be a trusted tutoring centre in Bahçelievler where every student has easy access to quality, personalised education, growing academic success, exam discipline and self-confidence side by side. Through our systematic exam-focused programmes, expert teaching staff and individual tracking approach, we continue building the strongest educational hub in Bahçelievler."
     },
     "mission": {
       "title": "Misyon",
-      "text": "Her öğrencinin potansiyelini keşfetmesine ve akademik hedeflerine ulaşmasına destek olmak. Kaliteli eğitim, bireysel takip ve güçlü motivasyonla fark yaratmak."
+      "text": "To support every student in discovering their potential, reaching their academic goals and succeeding in all areas of life. With our proven LGS and YKS programmes, individual tracking system and psychologist support, we provide a personalised learning experience for each student. As Bahçelievler's established tutoring centre, we continue to make a difference through quality education, strong motivation and inspiring success stories, preparing students not just for exam success but as disciplined, confident and goal-oriented individuals."
     },
     "founder": {
       "role": "Kurucu",

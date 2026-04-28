@@ -6,6 +6,7 @@ import { Link, usePathname } from "@/navigation"
 import { LucideIcon, ChevronDown, GraduationCap, BookOpen, Users, FileText, Menu, X, Trophy, Award, Star } from "lucide-react"
 import { cn } from "@/lib/utils"
 import { useTranslations } from 'next-intl'
+import { useTheme } from 'next-themes'
 import LanguageSwitcher from "./LanguageSwitcher"
 import Image from "next/image"
 import dynamic from "next/dynamic"
@@ -31,6 +32,7 @@ export default function Navbar() {
   const t = useTranslations('Navbar')
   const st = useTranslations('Services')
   const pathname = usePathname()
+  const { resolvedTheme } = useTheme()
   const [isHovered, setIsHovered] = useState<string | null>(null)
   const [isScrolled, setIsScrolled] = useState(false)
   const [isMobileOpen, setIsMobileOpen] = useState(false)
@@ -103,12 +105,24 @@ export default function Navbar() {
 
   return (
     <>
+    {/* Mobile glass header strip */}
+    <div className="md:hidden fixed top-0 left-0 right-0 z-50 pointer-events-none"
+      style={{
+        backdropFilter: 'blur(25px)',
+        WebkitBackdropFilter: 'blur(25px)',
+        backgroundColor: resolvedTheme === 'dark' ? 'rgba(10,10,15,0.55)' : 'rgba(255,255,255,0.5)',
+        borderBottom: '1px solid rgba(255,255,255,0.07)',
+      }}
+    >
+      <div className="h-[74px]" />
+    </div>
+
     <header className="fixed top-0 left-0 right-0 z-50 w-full px-6 md:px-12 py-5 flex items-center justify-between pointer-events-none">
       {/* Logo - Sol Taraf */}
       <div className="pointer-events-auto w-[200px] md:w-[260px] flex items-center">
         <Link href="/" className="flex items-center">
           <Image 
-                      src="/logos/Sevinc-Koleji-Logo.png" 
+            src="/logos/Sevinc-Kurs-Logo.png" 
             alt="Bahçelievler Sevinç Dershanesi" 
             width={240} 
             height={72} 
@@ -120,7 +134,7 @@ export default function Navbar() {
 
       {/* Nav Linkleri - Orta Kısım (sadece desktop) */}
       <div className="pointer-events-auto hidden md:flex flex-col items-center">
-        <div className="flex items-center gap-1 bg-black/5 dark:bg-white/5 border border-black/10 dark:border-white/10 backdrop-blur-lg py-1 px-1 rounded-full shadow-lg relative max-w-fit">
+        <div className="flex items-center gap-1 bg-white/10 dark:bg-black/25 border border-white/20 dark:border-white/10 backdrop-blur-2xl py-1 px-1 rounded-full shadow-xl relative max-w-fit" style={{ backdropFilter: 'blur(24px)', WebkitBackdropFilter: 'blur(24px)' }}>
           {navItems.map((item) => {
             const isActive = activeTab === item.name
 
@@ -135,11 +149,14 @@ export default function Navbar() {
                   href={item.url}
                   className={cn(
                     "relative cursor-pointer text-sm font-semibold px-6 py-2 rounded-full transition-colors flex items-center gap-2",
-                    "text-black/60 hover:text-black dark:text-white/60 dark:hover:text-white",
+                    "text-black/70 hover:text-black dark:text-white/80 dark:hover:text-white",
                     isActive && "text-black dark:text-white"
                   )}
                 >
-                  <span className="relative z-10 flex items-center gap-2">
+                  <span
+                    className="relative z-10 flex items-center gap-2"
+                    style={{ textShadow: '0px 1px 3px rgba(0,0,0,0.35)' }}
+                  >
                     {item.name}
                     {item.hasMegaMenu && <ChevronDown className={cn("w-3 h-3 transition-transform duration-300", isHovered === item.name && "rotate-180")} />}
                   </span>
@@ -181,7 +198,12 @@ export default function Navbar() {
               transition={{ duration: 0.18 }}
               onMouseEnter={() => openMenu(servicesLabel)}
               onMouseLeave={() => closeMenu()}
-              className="absolute top-full mt-3 w-[640px] p-6 bg-background/95 border border-black/10 dark:border-white/10 backdrop-blur-2xl rounded-[32px] shadow-2xl z-50"
+              className="absolute top-full mt-3 w-[640px] p-6 rounded-[32px] shadow-2xl z-50 border border-white/10"
+              style={{
+                backdropFilter: 'blur(30px)',
+                WebkitBackdropFilter: 'blur(30px)',
+                backgroundColor: resolvedTheme === 'dark' ? 'rgba(10,10,15,0.88)' : 'rgba(255,255,255,0.88)',
+              }}
             >
               <div className="grid grid-cols-2 gap-4">
                 {services.map((service) => (
@@ -194,7 +216,7 @@ export default function Navbar() {
                       <service.icon className="w-5 h-5 text-primary-light" />
                     </div>
                     <div>
-                      <div className="text-sm font-bold text-black dark:text-white mb-1">{service.title}</div>
+                      <div className="text-sm font-bold text-black dark:text-white mb-1" style={{ textShadow: '0px 1px 2px rgba(0,0,0,0.15)' }}>{service.title}</div>
                       <div className="text-xs text-black/40 dark:text-white/40 line-clamp-1">{service.description}</div>
                     </div>
                   </Link>
@@ -239,13 +261,18 @@ export default function Navbar() {
           animate={{ opacity: 1, x: 0 }}
           exit={{ opacity: 0, x: "100%" }}
           transition={{ type: "spring", stiffness: 260, damping: 30 }}
-          className="fixed inset-0 z-40 flex flex-col bg-[#f4f4f8] dark:bg-[#0a0a0f] backdrop-blur-2xl md:hidden"
+          className="fixed inset-0 z-40 flex flex-col md:hidden"
+          style={{
+            backdropFilter: 'blur(28px)',
+            WebkitBackdropFilter: 'blur(28px)',
+            backgroundColor: resolvedTheme === 'dark' ? 'rgba(10,10,15,0.93)' : 'rgba(244,244,248,0.92)',
+          }}
         >
           {/* Üst bar */}
           <div className="flex items-center justify-between px-6 py-5 border-b border-black/10 dark:border-white/10">
             <Link href="/" onClick={() => setIsMobileOpen(false)}>
               <Image
-                src="/logos/Sevinc-Koleji-Logo.png"
+                src="/logos/Sevinc-Kurs-Logo.png"
                 alt="Bahçelievler Sevinç Dershanesi"
                 width={200}
                 height={60}

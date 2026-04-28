@@ -130,7 +130,7 @@ export default function HoverFooter() {
           <div className="space-y-6">
             <Link href="/" className="inline-block pointer-events-auto">
               <Image
-                src="/logos/Sevinc-Koleji-Logo.png"
+                src="/logos/Sevinc-Kurs-Logo.png"
                 alt="Bahçelievler Sevinç Dershanesi"
                 width={180}
                 height={60}

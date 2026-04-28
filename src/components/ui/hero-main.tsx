@@ -6,6 +6,7 @@ import dynamic from "next/dynamic";
 import { useTranslations } from "next-intl";
 import { useTheme } from "next-themes";
 import Image from "next/image";
+import ContactPopup from "@/components/shared/ContactPopup";
 
 const Waves = dynamic(() => import('@/components/ui/waves'), { ssr: false });
 
@@ -47,7 +48,7 @@ export default function HeroMain() {
       {/* ── SCHOOL IMAGE BACKGROUND ──────────────────────────── */}
       <div className="absolute inset-0 z-[1] overflow-hidden">
         <Image
-          src="/okul/okul.jpeg"
+          src="/okul2/unnamed-6.jpg"
           alt=""
           fill
           className="object-cover object-center opacity-[0.08]"
@@ -133,17 +134,16 @@ export default function HeroMain() {
           animate="visible"
           className="flex flex-col sm:flex-row items-center justify-center gap-4"
         >
-          <a
-            href="https://wa.me/902125054001"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="group inline-flex items-center gap-3 px-8 py-4 rounded-full bg-[#E35205] hover:bg-[#A03500] text-white font-semibold text-sm tracking-wide transition-all duration-300 hover:scale-105 active:scale-95 shadow-[0_0_32px_rgba(227,82,5,0.45)] hover:shadow-[0_0_48px_rgba(227,82,5,0.6)]"
-            style={{ backgroundColor: '#E35205' }}
-          >
-            <MessageCircle className="w-4 h-4" />
-            {t("cta")}
-            <ArrowRight className="w-4 h-4 -translate-x-1 group-hover:translate-x-0 transition-transform" />
-          </a>
+          <ContactPopup>
+            <span
+              className="group inline-flex items-center gap-3 px-8 py-4 rounded-full bg-[#E35205] hover:bg-[#A03500] text-white font-semibold text-sm tracking-wide transition-all duration-300 hover:scale-105 active:scale-95 shadow-[0_0_32px_rgba(227,82,5,0.45)] hover:shadow-[0_0_48px_rgba(227,82,5,0.6)]"
+              style={{ backgroundColor: '#E35205' }}
+            >
+              <MessageCircle className="w-4 h-4" />
+              {t("cta")}
+              <ArrowRight className="w-4 h-4 -translate-x-1 group-hover:translate-x-0 transition-transform" />
+            </span>
+          </ContactPopup>
         </motion.div>
       </div>
 

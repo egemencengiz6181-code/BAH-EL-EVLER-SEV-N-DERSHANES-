@@ -16,7 +16,7 @@ export const metadata: Metadata = {
     googleBot: { index: true, follow: true },
   },
   icons: {
-    icon: '/logos/Sevinc-Koleji-Logo.png',
+    icon: '/logos/Sevinc-Kurs-Logo.png',
   },
   openGraph: {
     type: 'website',

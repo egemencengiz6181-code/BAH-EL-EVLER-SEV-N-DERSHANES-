@@ -77,7 +77,7 @@ const stats = [
   { icon: Trophy,        value: '15+',  label: 'Yıl Deneyim' },
   { icon: Users,         value: '500+', label: 'Mezun Öğrenci' },
   { icon: FlaskConical,  value: '%94',  label: 'Başarı Oranı' },
-  { icon: BookOpen,      value: '5-8', label: 'Sınıf Aralığı' },
+  { icon: BookOpen,      value: '6-12', label: 'Sınıf Aralığı' },
 ];
 
 const SectionWithMockup: React.FC<SectionWithMockupProps> = ({ title, description, badge }) => {

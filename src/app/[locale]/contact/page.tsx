@@ -16,7 +16,7 @@ export default function ContactPage() {
       {/* Soluk Arka Plan Mührü (Özel İletişim Sayfası İçin Yüksek Opasite) */}
       <div className="fixed top-[15%] right-[-250px] w-[900px] h-[900px] opacity-[0.12] rotate-12 pointer-events-none z-0">
         <Image 
-          src="/logos/Sevinc-Koleji-Logo.png" 
+          src="/logos/Sevinc-Kurs-Logo.png" 
           alt="" 
           fill 
           className="object-contain"

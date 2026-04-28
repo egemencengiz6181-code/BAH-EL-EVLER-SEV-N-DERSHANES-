@@ -44,7 +44,7 @@ export default function Footer() {
           <div className="space-y-8 col-span-1 lg:col-span-1">
             <Link href="/" className="inline-block">
               <Image 
-                src="/logos/Sevinc-Koleji-Logo.png" 
+                src="/logos/Sevinc-Kurs-Logo.png" 
                 alt="Bahçelievler Sevinç Dershanesi" 
                 width={200} 
                 height={80} 

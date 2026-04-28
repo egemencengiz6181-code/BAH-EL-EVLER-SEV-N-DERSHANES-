@@ -41,7 +41,7 @@ export default function LetsWorkSection() {
       {/* Okul arka plan görseli */}
       <div className="absolute inset-0 z-0">
         <Image
-          src="/okul/okul.jpeg"
+          src="/okul2/unnamed-7.jpg"
           alt="Bahçelievler Sevinç Dershanesi"
           fill
           className="object-cover opacity-[0.12] mix-blend-luminosity"
