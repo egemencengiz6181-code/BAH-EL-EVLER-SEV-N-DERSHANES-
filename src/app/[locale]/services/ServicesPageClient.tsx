@@ -3,15 +3,16 @@
 import { motion, useMotionValue, useSpring } from 'framer-motion';
 import { Link } from '@/navigation';
 import React from 'react';
-import { LucideIcon, BookOpen, GraduationCap, Trophy, FileText, Users, Star } from 'lucide-react';
+import { type LucideIcon, BookOpen, GraduationCap, Trophy, FileText, Users, Star, Award } from 'lucide-react';
 
-const IconMap: Record<string, LucideIcon> = {
+const ICON_MAP: Record<string, LucideIcon> = {
   BookOpen,
   GraduationCap,
   Trophy,
   FileText,
   Users,
   Star,
+  Award,
 };
 
 // Lightweight magnetic wrapper — only used on desktop hover
@@ -48,7 +49,7 @@ interface ServiceCardProps {
 }
 
 export function ServiceCard({ slug, icon, span = 'col-span-1', title, description }: ServiceCardProps) {
-  const Icon = IconMap[icon] ?? BookOpen;
+  const Icon = ICON_MAP[icon] ?? BookOpen;
   return (
     <motion.div
       initial={{ opacity: 0, y: 20 }}
@@ -95,18 +96,18 @@ export function SectionHeader({ title }: { title: string }) {
 interface ServicesGridProps {
   pageTitle: string;
   pageSubtitle: string;
-  sectionOrtaokul: string;
   sectionLise: string;
+  sectionMezun: string;
   sectionVip: string;
   sectionDestek: string;
   cards: Array<{ slug: string; icon: string; span?: string; title: string; description: string }>;
 }
 
-export default function ServicesPageClient({ pageTitle, pageSubtitle, sectionOrtaokul, sectionLise, sectionVip, sectionDestek, cards }: ServicesGridProps) {
-  const ortaokul = cards.filter(c => ['6-sinif','7-sinif','8-sinif'].includes(c.slug));
-  const lise = cards.filter(c => ['9-sinif','10-sinif','11-sinif','12-sinif','mezun'].includes(c.slug));
-  const vip = cards.filter(c => ['8-sinif-vip','12-sinif-vip'].includes(c.slug));
-  const destek = cards.filter(c => ['deneme-kulubu','ozel-ders'].includes(c.slug));
+export default function ServicesPageClient({ pageTitle, pageSubtitle, sectionLise, sectionMezun, sectionVip, sectionDestek, cards }: ServicesGridProps) {
+  const lise = cards.filter(c => ['9-sinif','10-sinif','11-sinif','12-sinif'].includes(c.slug));
+  const mezun = cards.filter(c => ['mezun','acik-lise'].includes(c.slug));
+  const vip = cards.filter(c => ['12-sinif-vip','mezun-vip'].includes(c.slug));
+  const destek = cards.filter(c => ['ozel-ders','deneme-kulubu'].includes(c.slug));
 
   return (
     <div className="min-h-screen pt-40 pb-32 relative overflow-hidden bg-transparent z-10">
@@ -132,18 +133,18 @@ export default function ServicesPageClient({ pageTitle, pageSubtitle, sectionOrt
         </div>
 
         <section className="mb-32">
-          <SectionHeader title={sectionOrtaokul} />
+          <SectionHeader title={sectionLise} />
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-            {ortaokul.map((card) => (
+            {lise.map((card) => (
               <ServiceCard key={card.slug} {...card} />
             ))}
           </div>
         </section>
 
         <section className="mb-32">
-          <SectionHeader title={sectionLise} />
+          <SectionHeader title={sectionMezun} />
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-            {lise.map((card) => (
+            {mezun.map((card) => (
               <ServiceCard key={card.slug} {...card} />
             ))}
           </div>

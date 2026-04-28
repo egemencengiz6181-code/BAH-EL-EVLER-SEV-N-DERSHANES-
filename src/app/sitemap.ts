@@ -1,20 +1,18 @@
 import type { MetadataRoute } from 'next';
 import { works } from '@/config/works';
 
-const origin = 'https://www.bahcelievlersevinc.com';
+const origin = 'https://www.sirinevlerfinal.com';
 const locales = ['tr'] as const;
 
 const serviceSlugs = [
-  '6-sinif',
-  '7-sinif',
-  '8-sinif',
   '9-sinif',
   '10-sinif',
   '11-sinif',
   '12-sinif',
   'mezun',
-  '8-sinif-vip',
   '12-sinif-vip',
+  'mezun-vip',
+  'acik-lise',
   'deneme-kulubu',
   'ozel-ders',
 ] as const;

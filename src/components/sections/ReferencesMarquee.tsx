@@ -18,12 +18,12 @@ const row1 = [
 ]
 
 const row2 = [
-  "LGS Türkiye Derecesi",
+  "YKS Türkiye Derecesi",
   "Bireysel Öğrenci Takibi",
   "Küçük Grup Dersleri",
   "Deneyimli Öğretmenler",
-  "%98 Hedef Lise Başarısı",
-  "Haftalık LGS Denemesi",
+  "%95 Üniversite Yerleşme",
+  "Haftalık YKS Denemesi",
   "Yapay Zeka Destekli Analiz",
   "Rehberlik & Koçluk",
 ]

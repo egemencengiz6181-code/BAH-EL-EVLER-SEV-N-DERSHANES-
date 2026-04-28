@@ -2,7 +2,8 @@
 
 import {useTranslations} from 'next-intl';
 import {motion, useMotionValue, useSpring, useTransform} from 'framer-motion';
-import {useEffect} from 'react';
+import {useEffect, useState} from 'react';
+import ContactModal from '@/components/shared/ContactModal';
 
 function AnimatedBackground() {
   const mouseX = useMotionValue(0.5);
@@ -127,6 +128,7 @@ export default function Hero({locale}: HeroProps) {
   const t = useTranslations('Hero');
   const headline = t('headline');
   const words = headline.split(' ');
+  const [isContactOpen, setIsContactOpen] = useState(false);
 
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
@@ -149,7 +151,7 @@ export default function Hero({locale}: HeroProps) {
           transition={{duration: 0.6, delay: 0.1}}
         >
           <span className="w-1.5 h-1.5 rounded-full bg-accent animate-pulse" />
-          Bahçelievler Sevinç Dershanesi
+          Şirinevler Final Dershanesi
         </motion.div>
 
         {/* Animated headline */}
@@ -186,8 +188,9 @@ export default function Hero({locale}: HeroProps) {
           animate="visible"
           custom={words.length + 2}
         >
-          <a
-            href={`/${locale}/services`}
+          <button
+            type="button"
+            onClick={() => setIsContactOpen(true)}
             className="group relative inline-flex items-center gap-3 px-8 py-4 rounded-full font-medium text-sm tracking-wide text-white overflow-hidden transition-all duration-300"
           >
             {/* Glow layer */}
@@ -203,7 +206,8 @@ export default function Hero({locale}: HeroProps) {
             >
               →
             </motion.span>
-          </a>
+          </button>
+          <ContactModal isOpen={isContactOpen} onClose={() => setIsContactOpen(false)} />
         </motion.div>
 
         {/* Scroll hint */}

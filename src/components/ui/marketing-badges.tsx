@@ -5,7 +5,7 @@ import { motion } from 'framer-motion';
 import { useRouter } from '@/navigation';
 import { cn } from '@/lib/utils';
 import { 
-  BookOpen, GraduationCap, Trophy, FileText, Users, BarChart2 
+  BookOpen, GraduationCap, Trophy, Users 
 } from 'lucide-react';
 
 interface BadgeProps {
@@ -21,58 +21,58 @@ interface BadgeProps {
 
 const badges: BadgeProps[] = [
   { 
-    id: '7-sinif', 
-    label: '7. Sınıf', 
+    id: '9-sinif', 
+    label: '9. Sınıf', 
     icon: <BookOpen className="w-4 h-4" />,
     rotation: -12,
     x: -280,
     y: -80,
-    color: "from-[#E35205] to-[#A03500]"
+    color: "from-[#E21F26] to-[#BE1821]"
   },
   { 
-    id: '8-sinif', 
-    label: '8. Sınıf', 
-    icon: <GraduationCap className="w-4 h-4" />,
+    id: '10-sinif', 
+    label: '10. Sınıf', 
+    icon: <BookOpen className="w-4 h-4" />,
     rotation: 8,
     x: -120,
     y: -140,
-    color: "from-[#A03500] to-[#6B2400]"
+    color: "from-[#2E3192] to-[#242672]"
   },
   { 
-    id: '9-sinif', 
-    label: '9. Sınıf', 
-    icon: <BookOpen className="w-4 h-4" />,
+    id: '11-sinif', 
+    label: '11. Sınıf', 
+    icon: <GraduationCap className="w-4 h-4" />,
     rotation: -5,
     x: 150,
     y: -120,
-    color: "from-[#E35205] to-[#A03500]"
+    color: "from-[#E21F26] to-[#2E3192]"
   },
   { 
-    id: '6-sinif', 
-    label: '6. Sınıf', 
-    icon: <BookOpen className="w-4 h-4" />,
+    id: '12-sinif', 
+    label: '12. Sınıf & YKS', 
+    icon: <Trophy className="w-4 h-4" />,
     rotation: 10,
     x: 260,
     y: -30,
     color: "from-zinc-800 to-zinc-900"
   },
   { 
-    id: 'ozel-ders', 
-    label: 'Özel Ders', 
-    icon: <Users className="w-4 h-4" />,
+    id: 'mezun', 
+    label: 'Mezun', 
+    icon: <GraduationCap className="w-4 h-4" />,
     rotation: 6,
     x: -220,
     y: 60,
-    color: "from-[#A03500] to-[#E35205]"
+    color: "from-[#2E3192] to-[#E21F26]"
   },
   { 
-    id: 'deneme-kulubu', 
-    label: 'Deneme Kulübü', 
-    icon: <BarChart2 className="w-4 h-4" />,
+    id: 'ozel-ders', 
+    label: 'Özel Ders', 
+    icon: <Users className="w-4 h-4" />,
     rotation: -8,
     x: 180,
     y: 90,
-    color: "from-[#E35205] to-[#A03500]"
+    color: "from-[#E21F26] to-[#BE1821]"
   },
   { 
     id: 'rehberlik', 
@@ -82,7 +82,7 @@ const badges: BadgeProps[] = [
     x: -40,
     y: -20,
     zIndex: 50,
-    color: "from-[#A03500] to-[#6B2400]"
+    color: "from-[#2E3192] to-[#242672]"
   }
 ];
 
