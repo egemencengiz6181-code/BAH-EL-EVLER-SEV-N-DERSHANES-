@@ -3,14 +3,16 @@ import { getTranslations } from 'next-intl/server';
 
 // Valid service slugs that match messages keys
 const validSlugs = [
+  '6-sinif',
+  '7-sinif',
+  '8-sinif',
+  '8-sinif-vip',
   '9-sinif',
   '10-sinif',
   '11-sinif',
   '12-sinif',
-  'mezun',
   '12-sinif-vip',
-  'mezun-vip',
-  'acik-lise',
+  'mezun',
   'deneme-kulubu',
   'ozel-ders',
 ] as const;
