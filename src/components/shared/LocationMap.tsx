@@ -15,7 +15,7 @@ export default function LocationMap() {
         loading="lazy"
         referrerPolicy="no-referrer-when-downgrade"
         className="transition-all duration-1000 group-hover:grayscale-0 group-hover:invert-0 group-hover:contrast-100"
-        title="Şirinevler Final Dershanesi"
+        title="Bahçelievler Sevinç Kurs Merkezi"
       />
       
       {/* Sanatsal Geçiş Katmanları */}

@@ -17,7 +17,7 @@ export async function generateMetadata({
   const work = getLocalizedWork(rawWork, locale);
   const t = await getTranslations({ locale, namespace: 'Works' });
 
-  const title = `${work.brand} – ${work.tagline} | Şirinevler Final Dershanesi`;
+  const title = `${work.brand} – ${work.tagline} | Bahçelievler Sevinç Kurs Merkezi`;
   const description = work.story?.challenge ?? work.tagline;
 
   return {

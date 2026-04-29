@@ -29,7 +29,7 @@ const slugImages: Record<ServiceSlug, { hero: string; tech: string; alt: string 
 const defaultImages = {
   hero: 'https://images.unsplash.com/photo-1503676260728-1c00da094a0b?w=1400&q=80',
   tech: 'https://images.unsplash.com/photo-1456513080510-7bf3a84b82f8?w=1400&q=80',
-  alt: 'Şirinevler Final Dershanesi programları',
+  alt: 'Bahçelievler Sevinç Kurs Merkezi programları',
 };
 
 export function generateStaticParams() {

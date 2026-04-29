@@ -89,7 +89,7 @@ export default async function IndexPage({
               </span>
             </>
           }
-          description="Şirinevler Final Dershanesi, 9. sınıftan mezun seviyesine kadar öğrencilerin YKS’de hedef üniversitelerine ulaşmalarını sağlamak için deneyimli öğretmen kadrosu ve zengin eğitim materyalleriyle akademik seviyelerini yükseltmeye odaklanır. Sunduğumuz programlar öğrencilerin yalnızca teorik bilgi değil, aynı zamanda pratik becerilerini de geliştirerek sınavlarda yüksek başarı göstermelerini sağlar."
+          description="Bahçelievler Sevinç Kurs Merkezi, 6. sınıftan mezun seviyesine kadar öğrencilerin YKS ve LGS'de hedef üniversite ve liseye ulaşmalarını sağlamak için deneyimli öğretmen kadrosu ve zengin eğitim materyalleriyle akademik seviyelerini yükseltmeye odaklanır. Sunduğumuz programlar öğrencilerin yalnızca teorik bilgi değil, aynı zamanda pratik becerilerini de geliştirerek sınavlarda yüksek başarı göstermelerini sağlar."
         />
 
         <TestimonialsSection items={testimonialItems} title={testimonialsTitle} subtitle={testimonialsSubtitle} />

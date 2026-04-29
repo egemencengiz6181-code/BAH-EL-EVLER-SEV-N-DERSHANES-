@@ -50,7 +50,7 @@ export default function AboutPage() {
             transition={{ delay: 0.5 }}
             className="text-primary-light tracking-[0.3em] uppercase text-xs mb-6 block font-medium"
           >
-            Şirinevler Final Dershanesi
+            Bahçelievler Sevinç Kurs Merkezi
           </motion.span>
           <motion.h1 
             initial={{ opacity: 0, scale: 0.95 }}
