@@ -34,7 +34,8 @@
       "ortaokul": "Ortaokul Programı",
       "lise": "Lise Programı",
       "destek": "Destek & Analiz",
-      "vip": "VIP Programlar"
+      "vip": "VIP Programlar",
+      "mezun": "Mezun Programı"
     },
     "items": {
       "6-sinif": {
@@ -387,6 +388,91 @@
         ],
         "meta_title": "Özel Ders | Bahçelievler Sevinç Dershanesi",
         "meta_description": "Birebir özel ders programı. Uzman eğitmenlerle kişiye özel hazırlanmış ders planı."
+      },
+      "mezun-vip": {
+        "title": "Mezun VIP",
+        "description": "Haftada 18 saat ders, 26 TYT + 14 AYT toplam 40 Deneme Sınavı + Deneme Kulübü, 40 saat özel ders, koç desteği.",
+        "hero_quote": "YKS'ye bir yıl daha hazırlanmak, bu sefer en doğru destekle devam etmektir.",
+        "intro": "Mezun VIP programımızda öğrencilere haftada 18 saat ders verilmektedir. Her VIP öğrencisi yılda 40 saat özel ders almaktadır.",
+        "body": "Mezun VIP öğrencileri için haftada 18 saat ders yapılmaktadır. VIP sınıfına kayıt yaptıran öğrenci için 1 yılda 40 saat özel ders yapılmaktadır. Her VIP öğrencisi için ders eksiklik durumuna göre haftada 1 ders saati özel ders verilmektedir. 26 TYT + 14 AYT olmak üzere toplam 40 Deneme Sınavı + Deneme Kulübü denemeleri yapılmaktadır. Salı, Çarşamba, Perşembe günleri günde 6 saat ders yapılacaktır (ders sonrasında öğretmen gözetiminde 15:00-17:00 arasında etüt). Yılda 2 kez tüm veliler kuruma davet edilerek veli toplantısı yapılır. Yıl içerisinde veli birebir görüşmelere davet edilerek görüşme sağlanır. Öğrencilere haftalık soru takip çizelgeleri verilerek düzenli olarak kontrol edilip kişiye özel hazırlanmış dosyalara eklenmektedir. Deneme sonrası rehberlik birimi tarafından sıfır hata kitapçığı çıkarılarak sınav analizi yapılır. Her öğrenci ile düzenli olarak psikolog eşliğinde seanslar yapılmaktadır. 2 haftada bir sınıf danışman öğretmenleri veliler ile düzenli telefon görüşmesi yapmaktadır. 2 haftada bir gruplar halinde psikodrama terapisi yapılmaktadır. Mezun VIP öğrencileri ile sınıf danışman hocası haftada 2 gün zoom üzerinden toplantı yapmaktadır. VIP öğrencilerimiz haftada 1 gün koçu ile çalışmalar yapmaktadır. 36 haftalık eğitim sistemimizde 648 saat eğitim verilmektedir. Yıl boyunca 240 saat soru çözüm saatları yapılacaktır (haftaiçi Salı, Çarşamba, Perşembe 15:00-17:00). Öğrencilere gruplar halinde randevulu eğitim programı (REP) kapsamında dersler verilmektedir.",
+        "strategy_title": "Mezun VIP Eğitim Modeli",
+        "phase1_title": "Yoğun Ders & Özel Ders",
+        "phase1_text": "Haftada 18 saat ders. Yılda 40 saat bireysel özel ders. Haftalık koç çalışması.",
+        "phase2_title": "40 Deneme & Analiz",
+        "phase2_text": "26 TYT + 14 AYT olmak üzere toplam 40 Deneme Sınavı + Deneme Kulübü. Sıfır hata kitapçığı ile analiz.",
+        "phase3_title": "Rehberlik & VIP Takip",
+        "phase3_text": "Haftada 2 gün Zoom toplantısı, koç desteği, psikolog seansları ve psikodrama terapisi.",
+        "result_title": "Hedef",
+        "result_text": "YKS'de hedeflenen puana ulaşmak ve tercih edilen üniversitede eğitim hakkı kazanmak.",
+        "tech_title": "VIP Program · 18 ders saati/hafta · 40 Saat Özel Ders",
+        "tech_intro": "Salı-Çarşamba-Perşembe günde 6 saat ders + etüt, 40 saat özel ders, 36 hafta 648 saat eğitim.",
+        "tech_tools": "TYT-AYT dersleri · 40 deneme · 40 saat özel ders · Koç desteği · Psikolog",
+        "features": [
+          "Haftada 18 saat ders",
+          "26 TYT + 14 AYT = 40 Deneme Sınavı",
+          "Deneme Kulübü dahil",
+          "40 saat bireysel özel ders",
+          "Haftalık koç çalışması",
+          "Zoom toplantıları",
+          "648 saat eğitim (36 hafta)"
+        ],
+        "meta_title": "Mezun VIP | Bahçelievler Sevinç Dershanesi",
+        "meta_description": "Mezun VIP programı. Haftada 18 saat ders, 26 TYT + 14 AYT toplam 40 deneme sınavı, 40 saat özel ders ve koç desteği."
+      },
+      "rehberlik": {
+        "title": "Rehberlik",
+        "description": "Bireysel psikolojik danışmanlık, sınav analizi ve akademik rehberlik hizmetleri.",
+        "hero_quote": "Başarının arkasında doğru rehberlik yatar.",
+        "intro": "Rehberlik birimimiz, öğrencilerin akademik ve kişisel gelişimini desteklemek için kapsamlı bir program sunar.",
+        "body": "Kurumumuzda psikolog eşliğinde düzenli bireysel ve grup seansları yapılmaktadır. Deneme sonrası rehberlik birimi tarafından sıfır hata kitapçığı hazırlanarak sınav analizi yapılır. Haftalık randevulu rehberlik görüşmesinde eksik noktalar belirlenerek çalışma programına eklenir. Veli bilgilendirme görüşmeleri düzenli olarak gerçekleştirilir.",
+        "strategy_title": "Rehberlik Programı",
+        "phase1_title": "Bireysel Danışmanlık",
+        "phase1_text": "Psikolog eşliğinde düzenli bireysel seanslar ve akademik takip.",
+        "phase2_title": "Sınav Analizi",
+        "phase2_text": "Deneme sonrası sıfır hata kitapçığı ile detaylı sınav analizi ve konu tespiti.",
+        "phase3_title": "Veli İletişimi",
+        "phase3_text": "Düzenli telefon görüşmeleri ve birebir veli görüşmeleri ile şeffaf iletişim.",
+        "result_title": "Kazanımlar",
+        "result_text": "Akademik başarı ile birlikte psikolojik denge ve özgüven gelişimi.",
+        "tech_title": "Kapsamlı Rehberlik Hizmeti",
+        "tech_intro": "Bireysel seanslar, grup terapisi ve veli görüşmeleri ile bütüncül destek.",
+        "tech_tools": "Psikolog desteği · Sınav analizi · Veli görüşmesi · Grup terapisi",
+        "features": [
+          "Psikolog eşliğinde bireysel seanslar",
+          "Sıfır hata kitapçığı analizi",
+          "Haftalık rehberlik görüşmesi",
+          "Psikodrama terapisi",
+          "Veli bilgilendirme sistemi"
+        ],
+        "meta_title": "Rehberlik | Bahçelievler Sevinç Dershanesi",
+        "meta_description": "Bahçelievler Sevinç Dershanesi rehberlik hizmetleri. Psikolog desteği, sınav analizi ve bireysel akademik takip."
+      },
+      "acik-lise": {
+        "title": "Açık Lise",
+        "description": "Açık lise öğrencilerine yönelik sınav hazırlık ve ders destek programı.",
+        "hero_quote": "Açık lise sürecinde de yanındayız.",
+        "intro": "Açık lise programımız, öğrencilerin sınav süreçlerini başarıyla tamamlamalarına destek olmak için hazırlanmıştır.",
+        "body": "Açık lise öğrencileri için esnek ders programı uygulanmaktadır. Sınav odaklı konu tekrarı ve test çözümleri yapılmaktadır. Bireysel takip ile öğrencilerin eksik konuları tamamlanmaktadır.",
+        "strategy_title": "Program İçeriği",
+        "phase1_title": "Konu Tekrarı",
+        "phase1_text": "Açık lise müfredatı kapsamında tüm derslerin sistematik tekrarı.",
+        "phase2_title": "Test & Değerlendirme",
+        "phase2_text": "Düzenli deneme sınavları ve sınav analizi.",
+        "phase3_title": "Bireysel Takip",
+        "phase3_text": "Danışman hoca takibi ve rehberlik desteği.",
+        "result_title": "Hedef",
+        "result_text": "Açık lise sınavlarını başarıyla tamamlamak.",
+        "tech_title": "Esnek Program",
+        "tech_intro": "Öğrencinin ihtiyacına göre şekillendirilen esnek ders saatleri.",
+        "tech_tools": "Konu anlatımı · Test çözümü · Bireysel takip · Rehberlik",
+        "features": [
+          "Esnek ders programı",
+          "Sınav odaklı hazırlık",
+          "Bireysel takip",
+          "Rehberlik desteği"
+        ],
+        "meta_title": "Açık Lise | Bahçelievler Sevinç Dershanesi",
+        "meta_description": "Açık lise öğrencileri için esnek sınav hazırlık ve ders destek programı."
       }
     }
   },

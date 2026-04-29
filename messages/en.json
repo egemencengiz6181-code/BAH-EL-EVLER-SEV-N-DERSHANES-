@@ -34,7 +34,8 @@
       "ortaokul": "Ortaokul Programı",
       "lise": "Lise Programı",
       "destek": "Destek & Analiz",
-      "vip": "VIP Programlar"
+      "vip": "VIP Programlar",
+      "mezun": "Graduate Programme"
     },
     "items": {
       "6-sinif": {
@@ -387,6 +388,91 @@
         ],
         "meta_title": "Özel Ders | Bahçelievler Sevinç Dershanesi",
         "meta_description": "Birebir özel ders programı. Uzman eğitmenlerle kişiye özel hazırlanmış ders planı."
+      },
+      "mezun-vip": {
+        "title": "Graduate VIP",
+        "description": "18 hours/week, 26 TYT + 14 AYT = 40 Mock Exams + Exam Club, 40 hrs private tutoring, coaching support.",
+        "hero_quote": "Taking another year to prepare for YKS — this time with the best support.",
+        "intro": "Our Graduate VIP programme provides 18 hours of lessons per week. Each VIP student receives 40 hours of private tutoring per year.",
+        "body": "18 hours of lessons per week for graduate VIP students. VIP students receive 40 hours of private tutoring per year. 26 TYT + 14 AYT = 40 Mock Exams + Exam Club. Classes on Tuesday, Wednesday and Thursday, 6 hours per day (study hall 15:00-17:00 after class). Regular psychologist sessions, biweekly group psychodrama therapy, 2 weekly Zoom meetings with class advisor and weekly coaching sessions. 240 hours of problem-solving sessions throughout the year.",
+        "strategy_title": "Graduate VIP Model",
+        "phase1_title": "Intensive Lessons & Private Tutoring",
+        "phase1_text": "18 hrs/week. 40 hrs individual private tutoring per year. Weekly coaching.",
+        "phase2_title": "40 Mock Exams & Analysis",
+        "phase2_text": "26 TYT + 14 AYT = 40 Mock Exams + Exam Club. Analysis with zero-error booklet.",
+        "phase3_title": "Guidance & VIP Tracking",
+        "phase3_text": "2 weekly Zoom sessions, coaching support, psychologist sessions and psychodrama therapy.",
+        "result_title": "Goal",
+        "result_text": "Reach the target score in YKS and earn a place at the preferred university.",
+        "tech_title": "VIP · 18 hrs/week · 40 hrs Private Tutoring",
+        "tech_intro": "Tue-Wed-Thu 6 hrs/day + study hall, 40 hrs private tutoring, 36 weeks 648 hrs training.",
+        "tech_tools": "TYT-AYT lessons · 40 mock exams · 40 hrs private tutoring · Coaching · Psychologist",
+        "features": [
+          "18 hours/week",
+          "26 TYT + 14 AYT = 40 Mock Exams",
+          "Exam Club included",
+          "40 hrs private tutoring",
+          "Weekly coaching",
+          "Zoom sessions",
+          "648 hrs training (36 weeks)"
+        ],
+        "meta_title": "Graduate VIP | Bahçelievler Sevinç Dershanesi",
+        "meta_description": "Graduate VIP programme. 18 hrs/week, 26 TYT + 14 AYT = 40 mock exams, 40 hrs private tutoring and coaching."
+      },
+      "rehberlik": {
+        "title": "Guidance",
+        "description": "Individual psychological counselling, exam analysis and academic guidance services.",
+        "hero_quote": "Behind every success is the right guidance.",
+        "intro": "Our guidance unit offers a comprehensive programme to support students' academic and personal development.",
+        "body": "Regular individual and group sessions with a psychologist. Post-exam analysis with zero-error booklets. Weekly scheduled guidance meetings identify gaps and update study plans. Regular parent communication sessions.",
+        "strategy_title": "Guidance Programme",
+        "phase1_title": "Individual Counselling",
+        "phase1_text": "Regular individual sessions with a psychologist and academic monitoring.",
+        "phase2_title": "Exam Analysis",
+        "phase2_text": "Detailed exam analysis with zero-error booklets and topic identification.",
+        "phase3_title": "Parent Communication",
+        "phase3_text": "Regular phone calls and one-on-one parent meetings for transparent communication.",
+        "result_title": "Outcomes",
+        "result_text": "Academic success alongside psychological balance and confidence development.",
+        "tech_title": "Comprehensive Guidance Service",
+        "tech_intro": "Holistic support through individual sessions, group therapy and parent meetings.",
+        "tech_tools": "Psychologist · Exam analysis · Parent meetings · Group therapy",
+        "features": [
+          "Individual psychologist sessions",
+          "Zero-error booklet analysis",
+          "Weekly guidance meeting",
+          "Psychodrama therapy",
+          "Parent notification system"
+        ],
+        "meta_title": "Guidance | Bahçelievler Sevinç Dershanesi",
+        "meta_description": "Bahçelievler Sevinç Dershanesi guidance services. Psychologist support, exam analysis and individual academic tracking."
+      },
+      "acik-lise": {
+        "title": "Open High School",
+        "description": "Exam preparation and lesson support programme for open high school students.",
+        "hero_quote": "We are with you through your open high school journey.",
+        "intro": "Our open high school programme is designed to help students successfully complete their exam processes.",
+        "body": "Flexible lesson schedule for open high school students. Exam-focused topic revision and practice tests. Individual tracking to fill knowledge gaps.",
+        "strategy_title": "Programme Content",
+        "phase1_title": "Topic Revision",
+        "phase1_text": "Systematic revision of all subjects within the open high school curriculum.",
+        "phase2_title": "Testing & Assessment",
+        "phase2_text": "Regular mock exams and exam analysis.",
+        "phase3_title": "Individual Tracking",
+        "phase3_text": "Mentor teacher monitoring and guidance support.",
+        "result_title": "Goal",
+        "result_text": "Successfully completing open high school exams.",
+        "tech_title": "Flexible Programme",
+        "tech_intro": "Flexible lesson hours shaped around each student's needs.",
+        "tech_tools": "Subject teaching · Practice tests · Individual tracking · Guidance",
+        "features": [
+          "Flexible lesson schedule",
+          "Exam-focused preparation",
+          "Individual tracking",
+          "Guidance support"
+        ],
+        "meta_title": "Open High School | Bahçelievler Sevinç Dershanesi",
+        "meta_description": "Flexible exam preparation and lesson support programme for open high school students."
       }
     }
   },
